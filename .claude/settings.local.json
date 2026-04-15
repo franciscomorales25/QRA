@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx hardhat:*)",
+      "Bash(echo \"PID: $!\")",
+      "Bash(echo \"Hardhat PID: $!\")",
+      "Bash(netstat -ano)",
+      "Bash(npm start:*)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(awk '{print $5}')",
+      "Bash(xargs -I{} taskkill /PID {} /F)",
+      "Bash(taskkill /PID 22032 /F)",
+      "Bash(cmd /c \"taskkill /PID 22032 /F\")",
+      "Bash(powershell -Command \"Stop-Process -Id 22032 -Force\")",
+      "Bash(powershell -Command \"Stop-Process -Id 16420 -Force -ErrorAction SilentlyContinue\")",
+      "Bash(curl -s -X POST http://127.0.0.1:8545 -H 'Content-Type: application/json' -d '{\"jsonrpc\":\"2.0\",\"method\":\"eth_getBalance\",\"params\":[\"0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266\",\"latest\"],\"id\":1}')",
+      "Bash(curl -s -X POST http://127.0.0.1:8545 -H 'Content-Type: application/json' -d '{\"jsonrpc\":\"2.0\",\"method\":\"eth_chainId\",\"params\":[],\"id\":1}')",
+      "Bash(ADDR=0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc npx hardhat run scripts/fund.js --network localhost)",
+      "Bash(powershell -Command \"Stop-Process -Id 4948 -Force -ErrorAction SilentlyContinue\")",
+      "Bash(node_modules/.bin/hardhat run:*)",
+      "Bash(ls C:/Users/fmora/qrsolid/node_modules/.bin/hardhat*)",
+      "Bash(cmd /c \"node_modules\\\\\\\\.bin\\\\\\\\hardhat.cmd run scripts/deploy-local.js --network localhost\")",
+      "Bash(powershell -Command \"cd C:\\\\Users\\\\fmora\\\\qrsolid; node_modules\\\\.bin\\\\hardhat.cmd run scripts/deploy-local.js --network localhost\")",
+      "Bash(node scripts/deploy-local.js)"
+    ]
+  }
+}
